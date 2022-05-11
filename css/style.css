@@ -1,0 +1,36 @@
+/*
+0 - 600px:          Phone
+600 - 900px:        Tablet portrait
+900 - 1200px        Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :          Big desktop
+
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tap-land
+- big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+.header {
+  height: 60vh;
+  background-image: url(../img/standingonmountain.jpg);
+  background-position: bottom;
+  background-size: cover;
+  padding-top: 6em;
+  color: #fff; }
+
+.section-features {
+  padding: 2rem;
+  height: 80vh; }
+
+.section-about {
+  background-image: url(../img/walkingonmountain.jpg);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  padding: 3rem;
+  padding-top: 5em; }
